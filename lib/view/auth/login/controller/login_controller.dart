@@ -1,9 +1,8 @@
-import 'package:ecommerce/home.dart';
 import 'package:ecommerce/router/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../data/api/api.dart';
+import '../../../../data/api/api.dart';
 
 class LoginController extends GetxController {
   final ApiClient api;

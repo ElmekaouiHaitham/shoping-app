@@ -75,12 +75,7 @@ class ApiClient extends GetConnect {
   }
 
   Future<void> logout() async {
-    try {
-      // Sign out the user from Firebase and clear any active user sessions.
-      await firebaseAuth.signOut();
-    } catch (error) {
-      print(error);
-    }
+    await firebaseAuth.signOut();
   }
 
   Future<User?> loginWithGoogle() async {
@@ -108,7 +103,6 @@ class ApiClient extends GetConnect {
       return user;
     } catch (error) {
       // Handle any errors that occurred while signing in with Google.
-      print(error);
       return null;
     }
   }

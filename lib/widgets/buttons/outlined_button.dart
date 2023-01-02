@@ -5,15 +5,19 @@ class MyOutlinedButton extends StatelessWidget {
 
   final void Function()? onTap;
 
-  const MyOutlinedButton({super.key, this.child, this.onTap});
+  final double width;
+  final double height;
+
+  const MyOutlinedButton(
+      {super.key, this.child, this.onTap, this.width = 60, this.height = 60});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
       child: SizedBox(
-        width: 60,
-        height: 60,
+        width: width,
+        height: height,
         child: Card(
           elevation: 5,
           shape: RoundedRectangleBorder(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../data/api/api.dart';
+import '../../../../data/api/api.dart';
 
 class ForgotPasswordController extends GetxController {
   final ApiClient api;

@@ -1,15 +1,15 @@
 import 'package:ecommerce/core/utils/responsive_size.dart';
-import 'package:ecommerce/view/forgot_password/controller/forgot_password_controller.dart';
-import 'package:ecommerce/widgets/Text_field.dart';
-import 'package:ecommerce/widgets/button.dart';
-import 'package:ecommerce/widgets/title_text.dart';
+import 'package:ecommerce/view/auth/forgot_password/controller/forgot_password_controller.dart';
+import 'package:ecommerce/widgets/buttons/button.dart';
+import 'package:ecommerce/widgets/texts/title_text.dart';
 import 'package:ecommerce/widgets/top_image.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../core/constants/colors.dart';
+import '../../../core/constants/colors.dart';
+import '../../../widgets/input_fields/text_field.dart';
 
 class ForgotPassword extends StatefulWidget {
   const ForgotPassword({super.key});

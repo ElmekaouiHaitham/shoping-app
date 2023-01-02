@@ -1,13 +1,13 @@
 import 'package:ecommerce/core/utils/responsive_size.dart';
-import 'package:ecommerce/view/reset_password/controller/change_password_controller.dart';
-import 'package:ecommerce/widgets/Text_field.dart';
-import 'package:ecommerce/widgets/button.dart';
-import 'package:ecommerce/widgets/title_text.dart';
+import 'package:ecommerce/view/auth/reset_password/controller/change_password_controller.dart';
+import 'package:ecommerce/widgets/buttons/button.dart';
+import 'package:ecommerce/widgets/texts/title_text.dart';
 import 'package:ecommerce/widgets/top_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../core/constants/colors.dart';
+import '../../../core/constants/colors.dart';
+import '../../../widgets/input_fields/text_field.dart';
 
 class ResetPassword extends StatefulWidget {
   const ResetPassword({super.key});
